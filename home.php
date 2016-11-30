@@ -5,7 +5,7 @@
     <title> Proyecto Xocolate</title>
     <meta property="og:title" content="Proyecto Chocolate"/>
     <meta property="og:url" content="https://www.proyectoxocolate.com/"/>
-    <meta property="og:image" content="<?php bloginfo('template_url'); ?>/images/px-logo.png"/>
+    <meta property="og:image" content="<?php bloginfo('template_url'); ?>/images/og-image-logo.jpg"/>
     <meta property="og:site_name" content="Proyecto Chocolate"/>
     <meta property="fb:admins" content="USER_ID"/>
     <meta property="og:description"
