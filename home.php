@@ -3,7 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title> Proyecto Xocolate</title>
-
+    <meta property="og:title" content="Proyecto Chocolate"/>
+    <meta property="og:url" content="https://www.proyectoxocolate.com/"/>
+    <meta property="og:image" content="<?php bloginfo('template_url'); ?>/images/px-logo.png"/>
+    <meta property="og:site_name" content="Proyecto Chocolate"/>
+    <meta property="fb:admins" content="USER_ID"/>
+    <meta property="og:description"
+          content="Proyecto Chocolate desarollo de chocolate artesanal "/>
     <style media="screen">
 
       body{
