@@ -46,6 +46,23 @@ html,body{
   height:100%;
   overflow:hidden;
 
+
+
+
+     #backgroung-cover-image{
+       position:absolute;
+       display:block;
+       top:-10%;
+       left:-10%;
+       width:130%;
+       height:130%;
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+   }
+
+
   >div{
     position:absolute;
     display:block;
