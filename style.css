@@ -9,7 +9,7 @@ This theme is for solely used only for and by proyecto xocolate
 body,
 html {
   margin: 0;
-  overflow-x: hidden;
+  overflow: hidden;
   height: 100%;
   background-color: #231810 !important;
   font-family: 'MyWebFont', Fallback, sans-serif; }
@@ -21,7 +21,7 @@ html {
   -moz-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); }
 
-.center-top, .cuerpo-tienda .background-cover-image, .cuerpo-tienda .first-half, .cuerpo-tienda .second-half {
+.center-top, .background-cover-image, .cuerpo-tienda .first-half, .cuerpo-tienda .second-half {
   top: 50%;
   -webkit-transform: translate(0, -50%);
   -moz-transform: translate(0, -50%);
@@ -33,17 +33,18 @@ html {
   -moz-transform: translate(-50%, 0);
   transform: translate(-50%, 0); }
 
+.background-cover-image {
+  position: absolute !important;
+  display: block;
+  left: 50%; }
+
 .cuerpo-tienda {
   position: relative;
   display: block;
-  width: 100%;
   padding: 20px;
   height: 100%;
-  overflow-x: hidden; }
-  .cuerpo-tienda .background-cover-image {
-    position: absolute !important;
-    display: block;
-    left: 50%; }
+  overflow-x: hidden;
+  overflow-y: auto; }
   @media screen and (max-width: 840px) {
     .cuerpo-tienda .fake-line {
       display: none !important; } }

@@ -34,9 +34,9 @@ snowStorm.useTwinkleEffect = true; // let the snow flicker in and out of view
 <div class="layer" data-depth="0.40">  <img  class="parallax-logo" src="<?php bloginfo('template_url'); ?>/images/px-logo.png" /></div>
 
 </div> -->
+<img src="<?php bloginfo('template_url'); ?>/images/background-image.png" alt=""  data-depth="0.40" class="background-cover-image layer">
 
 <div class="cuerpo-tienda" >
-  <img src="<?php bloginfo('template_url'); ?>/images/background-image.png" alt=""  data-depth="0.40" class="background-cover-image layer">
 <!-- <div class="background-cover-image layer" data-depth="0.40">
 </div> -->
  <div class="first-half">
