@@ -1,3 +1,52 @@
+/*
+Theme Name: Proyecto Xocolate
+Author: Proyecto Xocolate Desarollo
+Description: Desarollo de la Pagina Proyecto Xocolate
+Version: 1.0
+Tags: blog, two-columns, left-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
 
+
+This theme is for solely used only for and by proyecto xocolate
+*/
+html, body {
+  margin: 0;
+  overflow-x: hidden;
+  height: 100%;
+  background-color: #231810 !important; }
+
+.center {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+
+.center-top {
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  transform: translate(0, -50%); }
+
+.center-left {
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  transform: translate(-50%, 0); }
+
+.cuerpo-tienda {
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 100%; }
+  .cuerpo-tienda .first-half {
+    position: relative;
+    display: inline-block;
+    height: auto;
+    width: 50%; }
+  .cuerpo-tienda .second-half {
+    position: relative;
+    display: inline-block;
+    height: auto;
+    width: 50%; }
 
 /*# sourceMappingURL=style.css.map */

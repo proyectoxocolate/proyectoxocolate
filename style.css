@@ -4,66 +4,205 @@ Author: Proyecto Xocolate Desarollo
 Description: Desarollo de la Pagina Proyecto Xocolate
 Version: 1.0
 Tags: blog, two-columns, left-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
-
-
 This theme is for solely used only for and by proyecto xocolate
 */
-html, body {
+body,
+html {
   margin: 0;
   overflow-x: hidden;
-  height: 100%; }
+  height: 100%;
+  background-color: #231810 !important;
+  font-family: 'MyWebFont', Fallback, sans-serif; }
 
-.center, #scene > div .parallax-logo {
+.center {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); }
 
-.center-top {
+.center-top, .cuerpo-tienda .background-cover-image, .cuerpo-tienda .first-half, .cuerpo-tienda .second-half {
   top: 50%;
   -webkit-transform: translate(0, -50%);
   -moz-transform: translate(0, -50%);
   transform: translate(0, -50%); }
 
-.center-left {
+.center-left, .cuerpo-tienda .first-half .text .layer, .cuerpo-tienda .first-half img, .cuerpo-tienda .second-half > .cuerpo {
   left: 50%;
   -webkit-transform: translate(-50%, 0);
   -moz-transform: translate(-50%, 0);
   transform: translate(-50%, 0); }
 
-#scene {
+.cuerpo-tienda {
   position: relative;
   display: block;
   width: 100%;
+  padding: 20px;
   height: 100%;
-  overflow: hidden; }
-  #scene #backgroung-cover-image {
-    position: absolute;
+  overflow-x: hidden; }
+  .cuerpo-tienda .background-cover-image {
+    position: absolute !important;
     display: block;
-    top: -10%;
-    left: -10%;
-    width: 130%;
-    height: 130%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; }
-  #scene > div {
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box; }
-    #scene > div .parallax-logo {
+    left: 50%; }
+  @media screen and (max-width: 840px) {
+    .cuerpo-tienda .fake-line {
+      display: none !important; } }
+  @media (max-width: 1300px) {
+    .cuerpo-tienda .background-cover-image {
+      top: 50% !important;
+      left: 50% !important;
+      -webkit-transform: translate(-50%, -50%) !important;
+      -moz-transform: translate(-50%, -50%) !important;
+      transform: translate(-50%, -50%) !important; }
+    .cuerpo-tienda .first-half {
+      position: relative;
+      display: block !important;
+      float: none !important;
+      padding-top: 50px;
+      padding-left: 20px;
+      padding-right: 20px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      top: 0;
+      width: 100% !important;
+      left: 50%;
+      -webkit-transform: translate(-50%, 0);
+      -moz-transform: translate(-50%, 0);
+      transform: translate(-50%, 0); }
+      .cuerpo-tienda .first-half img {
+        max-width: 540px;
+        width: 100%;
+        height: auto; }
+    .cuerpo-tienda .second-half {
+      position: relative;
+      display: block !important;
+      float: none !important;
+      width: 100% !important;
+      text-align: center !important;
+      top: 0;
+      width: 100% !important;
+      left: 50%;
+      -webkit-transform: translate(-50%, 0);
+      -moz-transform: translate(-50%, 0);
+      transform: translate(-50%, 0); }
+      .cuerpo-tienda .second-half .cuerpo {
+        left: 0;
+        -webkit-transform: translate(0, 0) !important;
+        -moz-transform: translate(0, 0) !important;
+        transform: translate(0, 0) !important; }
+      .cuerpo-tienda .second-half .body-phone {
+        text-align: middle; }
+      .cuerpo-tienda .second-half .body-email {
+        width: 100%; } }
+  @media (min-width: 840px) and (max-width: 1300px) {
+    .cuerpo-tienda .fake-line {
+      display: none !important; } }
+  .cuerpo-tienda .first-half {
+    position: relative;
+    display: inline-block;
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: center; }
+    .cuerpo-tienda .first-half .image {
+      position: relative;
+      display: block;
+      padding-bottom: 20px; }
+    .cuerpo-tienda .first-half .text {
+      position: relative;
+      display: block;
+      width: 100%;
+      height: 100px; }
+    .cuerpo-tienda .first-half img {
+      position: relative;
+      display: block; }
+    .cuerpo-tienda .first-half .text {
+      font-size: 35px;
+      font-weight: bold; }
+      .cuerpo-tienda .first-half .text span:first-child {
+        color: #ffde17; }
+      .cuerpo-tienda .first-half .text span:last-child {
+        color: #f4c871; }
+  .cuerpo-tienda .second-half {
+    position: relative;
+    display: inline-block;
+    height: auto;
+    width: 50%;
+    color: white;
+    float: left;
+    vertical-align: top;
+    font-weight: bold;
+    padding-top: 20px; }
+    .cuerpo-tienda .second-half .fake-line {
       position: absolute;
       display: block;
-      max-width: 489px;
-      width: 100%;
-      height: auto;
-      z-index: 2; }
+      left: -1;
+      top: 0;
+      bottom: 0;
+      width: 1px;
+      background-color: #f4c871; }
+    .cuerpo-tienda .second-half > .cuerpo {
+      position: relative;
+      display: inline-block; }
+      .cuerpo-tienda .second-half > .cuerpo .title {
+        padding-bottom: 75px; }
+        .cuerpo-tienda .second-half > .cuerpo .title div:first-child {
+          color: #ffde17;
+          font-size: 36px; }
+        .cuerpo-tienda .second-half > .cuerpo .title div:last-child {
+          padding-top: 20px;
+          font-size: 18px; }
+      .cuerpo-tienda .second-half > .cuerpo .body .body-register {
+        padding-bottom: 20px !important; }
+      .cuerpo-tienda .second-half > .cuerpo .body .body-phone {
+        display: inline-block !important;
+        position: relative; }
+        .cuerpo-tienda .second-half > .cuerpo .body .body-phone > div {
+          display: table; }
+      .cuerpo-tienda .second-half > .cuerpo .body .body-email, .cuerpo-tienda .second-half > .cuerpo .body .body-phone, .cuerpo-tienda .second-half > .cuerpo .body .body-register {
+        display: table;
+        padding-bottom: 75px;
+        font-size: 18px; }
+        .cuerpo-tienda .second-half > .cuerpo .body .body-email img, .cuerpo-tienda .second-half > .cuerpo .body .body-phone img, .cuerpo-tienda .second-half > .cuerpo .body .body-register img {
+          vertical-align: middle;
+          padding-right: 35px; }
+        .cuerpo-tienda .second-half > .cuerpo .body .body-email p, .cuerpo-tienda .second-half > .cuerpo .body .body-phone p, .cuerpo-tienda .second-half > .cuerpo .body .body-register p {
+          display: table-cell;
+          vertical-align: middle; }
+        .cuerpo-tienda .second-half > .cuerpo .body .body-email .text, .cuerpo-tienda .second-half > .cuerpo .body .body-phone .text, .cuerpo-tienda .second-half > .cuerpo .body .body-register .text {
+          display: table-cell;
+          vertical-align: middle;
+          max-width: 510px !important; }
+          .cuerpo-tienda .second-half > .cuerpo .body .body-email .text div:first-child, .cuerpo-tienda .second-half > .cuerpo .body .body-phone .text div:first-child, .cuerpo-tienda .second-half > .cuerpo .body .body-register .text div:first-child {
+            padding-bottom: 5px; }
+            .cuerpo-tienda .second-half > .cuerpo .body .body-email .text div:first-child span, .cuerpo-tienda .second-half > .cuerpo .body .body-phone .text div:first-child span, .cuerpo-tienda .second-half > .cuerpo .body .body-register .text div:first-child span {
+              color: #ffde17; }
+          .cuerpo-tienda .second-half > .cuerpo .body .body-email .text .register-box, .cuerpo-tienda .second-half > .cuerpo .body .body-phone .text .register-box, .cuerpo-tienda .second-half > .cuerpo .body .body-register .text .register-box {
+            position: relative;
+            display: block;
+            width: 100%;
+            height: 25px; }
+
+@font-face {
+  font-family: 'gadugi';
+  src: url("/wp-content/themes/proyectoxocolate/fonts/gadugi.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+.register-box input[type=email] {
+  width: 70%;
+  height: 25px; }
+.register-box input[type=submit] {
+  width: 25%;
+  height: 35px;
+  background-color: #c5832a;
+  color: #ffffff;
+  font-weight: bold;
+  border-style: solid;
+  border-color: #231810; }
+.register-box input[type=submit]:active {
+  background-color: #e28920;
+  border-color: #c5832a; }
+.register-box input[type=submit]:focus {
+  outline: 0; }
 
 /*# sourceMappingURL=style.css.map */
