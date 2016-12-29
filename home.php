@@ -52,7 +52,7 @@ snowStorm.useTwinkleEffect = true; // let the snow flicker in and out of view
    <div id="scene2">
         <div class="layer text" data-depth="0.50">
           <div >
-            <span> Proudcto 100% </span> <span> Mexicano </span>
+            <span> Producto 100% </span> <span> Mexicano </span>
           </div>
         </div>
    </div>
@@ -64,17 +64,17 @@ snowStorm.useTwinkleEffect = true; // let the snow flicker in and out of view
    <div class='cuerpo'>
      <div class="title">
         <div class="">
-          <span>Pagina Bajo Construccion!</span>
+          <span>¡Pagina Bajo Construcción!</span>
         </div>
         <div class="">
-          <span>Por el momento connectate con nosotros de las siguiente maneras!</span>
+          <span>¡Por el momento conectate con nosotros de las siguiente maneras!</span>
         </div>
      </div>
      <div class="body">
        <div class="body-phone">
          <div>
            <img src="<?php bloginfo('template_url'); ?>/images/phone.png" alt="">
-    <p>(686) 262-7198 - Jesus Renteria<br><br>(686) 248-7506 - Alan Renteria</p>
+    <p>(686) 262-7198 - Jesús Rentería<br><br>(686) 248-7506 - Alan Rentería</p>
 
          </div>
 </div>
@@ -86,7 +86,7 @@ snowStorm.useTwinkleEffect = true; // let the snow flicker in and out of view
               <img src="<?php bloginfo('template_url'); ?>/images/register.png" alt="">
          <div class="text">
            <div>
-             <span> Obtén lo ultimo </span>
+             <span> Obtén lo último </span>
            </div>
            <span>Manténgase al día con las últimas noticias, eventos y ofertas
 especiales de Proyecto Xocolate.</span>
