@@ -39,11 +39,25 @@ html {
   left:50%;
   @extend .center-top;
 }
+
+.body-all{
+  position: absolute;
+  display: block;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
 .cuerpo-tienda {
-    position: relative;
+    position: absolute;
     display: block;
     padding:20px;
-    height: 100%;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
     overflow-x: hidden;
     overflow-y:auto;
 

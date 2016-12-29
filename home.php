@@ -33,7 +33,7 @@ snowStorm.useTwinkleEffect = true; // let the snow flicker in and out of view
 "> </div> </div>
 <div class="layer" data-depth="0.40">  <img  class="parallax-logo" src="<?php bloginfo('template_url'); ?>/images/px-logo.png" /></div>
 
-</div> -->
+</div> --><div class="body-all">
 <img src="<?php bloginfo('template_url'); ?>/images/background-image.png" alt=""  data-depth="0.40" class="background-cover-image layer">
 
 <div class="cuerpo-tienda" >
@@ -91,7 +91,7 @@ snowStorm.useTwinkleEffect = true; // let the snow flicker in and out of view
            <span>Manténgase al día con las últimas noticias, eventos y ofertas
 especiales de Proyecto Xocolate.</span>
 <div class="register-box">
-      <?php echo do_shortcode( '[mc4wp_form id="8"]' ); ?>
+      <?php echo do_shortcode( '[mc4wp_form id="4"]' ); ?>
 </div>
          </div>
        </div>
@@ -99,6 +99,8 @@ especiales de Proyecto Xocolate.</span>
    </div>
  </div>
 </div>
+</div>
+
 
 
 
