@@ -18,6 +18,7 @@ function proyectoxocolate_theme_setup() {
       wp_register_style('bar-css', get_template_directory_uri() . '/css/bar-css.css', array(), '1.0', 'all');
       wp_enqueue_style( 'bar-css', get_stylesheet_uri() );
           wp_enqueue_style( 'style', get_stylesheet_uri() );
+          
            wp_enqueue_script( 'javascript', get_template_directory_uri() . '/js/javascript.js', array(), '1.0.0', true );
       wp_enqueue_script( 'jquery' );
   }
