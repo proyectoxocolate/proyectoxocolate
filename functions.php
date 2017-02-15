@@ -18,7 +18,7 @@ function proyectoxocolate_theme_setup() {
     wp_register_style( 'stylesheet_name', get_stylesheet_directory_uri() . '/stylesheet.css' );
          wp_register_style( 'homepage', get_stylesheet_directory_uri() . '/css/homepage.css' );
         wp_register_style('bar-css', get_template_directory_uri() . '/css/bar-css.css', array(), '1.0', 'all');
-        wp_enqueue_script( 'frontpage', get_template_directory_uri() . '/js/frontpage.js', array ( 'jquery' ), 1.1, true);
+        wp_register_script( 'frontpage', get_template_directory_uri() . '/js/frontpage.js', array ( 'jquery' ), 1.1, true);
 }
 
   function load_theme_styles() {
