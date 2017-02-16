@@ -23,8 +23,9 @@ O simplemente escribir en gitbash:
 Desde la plataforma de wordpress podrán ver el tema y dentro del catálogo de temas y simplemente activar el tema de proyecto xocolate.
 
 
+## Archivos externos (ejemplo: imagenes)
 
-
+Podran encontrar las imagenes en dropbox de [Proyecto Xocolate](https://www.dropbox.com/sh/152a8c8rbvheqiq/AAC-TjoWneaQ_wVJWDvuIMssa?dl=0)  Las imagenes que se encuentran actualmente en el sitio web.
 
 ## Licencia
 
